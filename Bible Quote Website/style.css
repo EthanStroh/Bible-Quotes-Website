@@ -1,0 +1,38 @@
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #f0e68c; /* Khaki for an old parchment look */
+    color: #333;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: #8b4513; /* SaddleBrown for headings */
+}
+
+button {
+    background-color: #8b4513;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #a0522d; /* Sienna, a darker shade for hover effect */
+}
+
+textarea {
+    width: 80%;
+    height: 100px;
+}
+
+#quoteDisplay, #userQuotes {
+    margin-top: 20px;
+    font-style: italic;
+}
